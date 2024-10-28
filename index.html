@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PokeWiki</title>
+    <link rel="icon" href="./Imagenes/pokebola.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./pokewiki.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <label for="numero">Ingresa un número:</label>
+      <input
+        type="number"
+        id="numero"
+        name="numero"
+        min="1"
+        max="898"
+        step="1"
+        required
+      />
+      <button id="buscar">Buscar Pokémon</button>
+    </div>
+    <div id="pokemon-card" class="pokemon-card"></div>
+    <script src="./pokewiki.js"></script>
+  </body>
+</html>
